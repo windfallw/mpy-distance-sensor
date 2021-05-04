@@ -2,7 +2,12 @@
 
 *MicroPython library for TOF (time-of-flight) distance sensor.*
 
-There is some of TOF distance sensors I have ever used.
+
+> What’s TOF is pulsed laser emits pulse singly or continuously to the target. When emitting laser pulse, internal timing circuit is triggered instantly. The calculator measures the time between the laser pulse arriving at the target and return to the receiver from the target Δt , so the distance of the target is obtained.
+>
+> -- <cite>J. Liu, Q. Sun, Z. Fan and Y. Jia, "TOF Lidar Development in Autonomous Vehicle," 2018 IEEE 3rd Optoelectronics Global Conference (OGC), 2018, pp. 185-190, doi: 10.1109/OGC.2018.8529992</cite>.
+
+below are some of TOF distance sensors I have ever used.
 
 ## SenkyLaser
 
